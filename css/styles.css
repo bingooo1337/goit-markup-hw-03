@@ -2,6 +2,21 @@
   --primary-color: #4d5ae5;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+ul {
+  padding-left: 0;
+  margin: 0;
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -15,22 +30,23 @@
   overflow: hidden;
 }
 
+.container {
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
 header {
   color: #2e2f42;
 }
 
 .header-section {
   border-bottom: 1px solid #e7e9fc;
+  padding: 24px 0;
 }
 
 .header-block {
   display: flex;
-}
-
-.container {
-  width: 1158px;
-  margin: 0 auto;
-  padding: 0 15px;
 }
 
 .header-nav {
@@ -45,6 +61,7 @@ ol {
 
 address {
   font-style: normal;
+  margin-left: auto;
 }
 
 a {
@@ -132,6 +149,9 @@ body {
   line-height: 1.07;
   letter-spacing: 0.02em;
   max-width: 496px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 48px;
 }
 
 .main-title-button {
@@ -147,6 +167,8 @@ body {
   background-color: var(--primary-color);
   cursor: pointer;
   border-radius: 4px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .main-title-button:hover,
@@ -166,7 +188,9 @@ body {
 .features-list {
   display: flex;
   gap: 24px;
-  padding-left: 0; margin-top: 0; margin-bottom: 0;
+  padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .features-list-item {
@@ -208,7 +232,9 @@ body {
 .team-list {
   display: flex;
   gap: 24px;
-  padding-left: 0; margin-top: 0; margin-bottom: 0;
+  padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .team-list-item {
@@ -263,7 +289,9 @@ body {
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
-  padding-left: 0; margin-top: 0; margin-bottom: 0;
+  padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .portfolio-list-item {
